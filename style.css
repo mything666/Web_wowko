@@ -25,6 +25,17 @@ body {
   width: 730px;
 }
 
+#page_bg
+{
+  margin: 0 auto 0 auto; 
+  display: table; 
+  height: 100%;  
+  position: relative; 
+  overflow: hidden; 
+  background: #252F33 url(bg.jpg) repeat-y;
+  width: 730px;
+}
+
 
 .title
 {
