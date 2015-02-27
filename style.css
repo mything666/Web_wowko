@@ -1,7 +1,7 @@
 body {
+    background: url("background/astral.jpg") repeat scroll center top #000;
     margin: 0;
     padding: 0;
-    background: #333333;
     text-align: center;
     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
     font-size: 13px;
@@ -20,7 +20,7 @@ body {
     height: 100%;  
     position: relative; 
     overflow: hidden; 
-    background: #252F33 url() repeat-y;
+    background: #252F33;
     width: 730px;
 }
 
@@ -30,7 +30,7 @@ body {
     height: 100%;  
     position: relative; 
     overflow: hidden; 
-    background: #252F33 url(bg.jpg) repeat-y;
+    background: #252F33 url(background/bg.jpg) repeat-y;
     width: 796px;
 }
 
@@ -178,18 +178,9 @@ p {
     text-align: center;
 }
 
-#pozadie {
-    background-image:url("astral.jpg");
-
-    background-size:   cover;                 
-
-    background-repeat: no-repeat;
-
-    background-position: center center;       
-}
 
 #rasa {
-     background-image:url("bg.jpg");
+     background-image:url("background/bg.jpg");
 
      background-size:cover;                 
      background-repeat: no-repeat;
